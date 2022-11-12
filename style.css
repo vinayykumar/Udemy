@@ -27,12 +27,21 @@ top: -47px;
 
 #emptycart{
     position: relative;
-    top: 120px;
+    top: 10px;
     left:600px;
 }
 
 #emptytext{
     position: relative;
-    top: 130px;
+    top: 10px;
     left: 550px;
+}
+
+#shopnow{
+    position: relative;
+    top: 20px;
+    left: 650px;
+    background-color: #5624D0;
+    border-color: none
+    ;
 }

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.alert {
+    background-color:#5624D0 ;
+    color: white;
+    margin: auto;
+}

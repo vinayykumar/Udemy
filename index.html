@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- alert -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>Future-ready skills on your schedule </strong>| Learn why Udemy is
       trusted by 12.5K+ companies around the world
@@ -20,15 +21,16 @@
         type="button"
         class="btn-close"
         data-bs-dismiss="alert"
-        aria-label="Close"
-      ></button>
+        aria-label="Close" ></button>
     </div>
+
+
 
     <div class="shadow p-3 mb-5 bg-body rounded">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img src="/Media/logo-udemy.svg" alt="" width="75px"
+            ><img src="/logo-udemy.svg" alt="" width="75px"
           /></a>
           <button
             class="navbar-toggler"
@@ -44,10 +46,10 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown ms-2">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="#2
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -77,14 +79,10 @@
                   <li>
                     <a class="dropdown-item" href="#">Teaching & Academics</a>
                   </li>
-                  <!-- <li><hr class="dropdown-divider" /></li> -->
-                  <!-- <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li> -->
                 </ul>
               </li>
-
-              <div class="nav-item col-4 me-5">
+              
+              <div class="nav-item col-5 me-5 ms-3">
                 <form class="d-flex" role="search">
                   <input
                     class="form-control me-2 col-4"
@@ -93,10 +91,10 @@
                     aria-label="Search"
                   />
                   <button
-                    class="btn btn-outline-success col-2 me-2"
+                    class="btn btn-outline-success col-2 me-5"
                     type="submit "
                   >
-                    <img src="search-ico.svg" alt="">
+                    <img src="search-ico.svg" alt="" />
                   </button>
                 </form>
               </div>
@@ -104,14 +102,16 @@
               <li class="nav-item ms-5">
                 <a class="nav-link" aria-current="page" href="#"
                   >Udemy Business</a
-                >
+                > 
               </li>
               <li class="nav-item me-3">
                 <a class="nav-link" href="#">Teach on Udemy</a>
               </li>
 
               <li class="nav-item me-3">
-                <a class="nav-link" href="/cart.html"><img src="cart-icon.svg" alt=""></a>
+                <a class="nav-link" href="/cart.html"
+                  ><img src="cart-icon.svg" alt=""
+                /></a>
               </li>
 
               <li class="nav-item me-3">
@@ -119,11 +119,15 @@
               </li>
 
               <li class="nav-item me-3">
-                <a class="nav-link btn btn-dark" href="#" style="color: white;">Sign up</a>
+                <a class="nav-link btn btn-dark" href="#" style="color: white"
+                  >Sign up</a
+                >
               </li>
 
-              <li class="nav-item me-3">
-                <a class="nav-link btn btn-outline-dark" href="#"><img src="tabler_world.svg" alt=""></a>
+              <li class="nav-item me-auto">
+                <a class="nav-link btn btn-outline-dark" href="#"
+                  ><img src="tabler_world.svg" alt=""
+                /></a>
               </li>
               <!-- <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
@@ -135,29 +139,76 @@
     </div>
 
     <!-- Carousel -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="7869fd17-9599-4a5e-9b03-4748a3dae016.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="cjpgarousel-item" data-bs-interval="3000">
-            <img src="e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="slider img 3.svg" class="d-block w-100" alt="...">
-          </div>
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="7000">
+          <img
+            src="/7869fd17-9599-4a5e-9b03-4748a3dae016.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>   
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div style="margin-left:5vw;">
+    <h1>A broad selection of courses</h1>
+    <p>Choose from 204,000 online video courses with new additions published every month</p>
+   </div> 
 
+  <div class="headings">
+    <div class="head1">
+      <div class="img1"><img src="/play circle.svg" alt=""></div>
+      <div> <strong>Learn in-demand skills with over <br> 204,000 video courses.</strong></div>
+    </div>
 
+    <div class="head2">
+      <div class="img1"><img src="/play circle.svg" alt=""></div>
+      <div><strong>Choose courses taught by real-world <br>experts</strong></div>
+    </div>
+
+    <div class="head3">
+      <div class="img1"><img src="/play circle.svg" alt=""></div>
+      <div><strong>Learn at your own pace,with lifetime <br> access on mobile and desktop</strong></div>
+    </div>
+  </div>
+
+  <div class="stud"><h1>Students are viewing</h1></div>
+
+  <div class="courses">
+    <div class="course1">
+      <img src="/complete web.jpg" alt="">
+    </div>
+  </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

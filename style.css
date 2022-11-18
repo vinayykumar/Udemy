@@ -45,3 +45,32 @@ top: -47px;
     border-color: none
     ;
 }
+
+.headings{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 4vw;
+    justify-content: space-between;
+}
+
+.head1{
+    display: flex;
+    
+}
+.head2{
+    display: flex;
+}
+
+.head3{
+    display: flex;
+}
+.img1{
+    margin-right: 1vw;
+}
+
+.stud{
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
+

@@ -80,10 +80,24 @@ top: -47px;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 2vw ;
+    flex-wrap: wrap ;
 }
 
 .categories{
-    margin-top: 3vw;
+    margin-top: 4vw;
     margin-left: 5vw;
+}
+
+.illustrations{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured{
+    margin-left: 5vw;
+    margin-top: 3vw;
 }
 

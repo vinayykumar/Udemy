@@ -51,6 +51,7 @@ top: -47px;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 4vw;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -97,7 +98,32 @@ top: -47px;
 }
 
 .featured{
+    display: flex;
     margin-left: 5vw;
     margin-top: 3vw;
+    margin-right: 5vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ins{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ins-text{
+    margin-left: 5vw;
+}
+
+.start{
+    color: white;
+    background-color:#1c1d1f;
+    padding: 8px;
 }
 

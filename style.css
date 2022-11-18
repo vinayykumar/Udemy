@@ -74,3 +74,16 @@ top: -47px;
     margin-top: 4vw;
 }
 
+.courses{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vw ;
+}
+
+.categories{
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
